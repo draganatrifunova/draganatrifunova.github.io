@@ -1,0 +1,92 @@
+body{
+    background: url("images/background body.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#container{
+    width: 1100px;
+    height: 700px;
+    margin: auto;
+    background: radial-gradient(rgb(247, 225, 255), rgb(154, 142, 194));
+    /*background: radial-gradient(rgb(136, 249, 255), rgb(255, 154, 249));*/
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 23px;
+}
+header ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header ul li a:hover{
+    font-size: 30px;
+    text-shadow: -2px -2px 3px black;
+    cursor: pointer;
+}
+header ul li a:active{
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: -2px -2px 3px white;
+    color: rgb(136, 69, 164);
+}
+header ul li{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+#person img{
+    height: 44px;
+    width: 150px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 300px;
+}
+.linija_futer
+{
+    width: 98%;
+    color: white;
+    border:5px dashed;
+}
+.aktivno_meni{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Comic Sans MS", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-shadow: -2px -2px 3px black;
+    color: #ececec;
+    font-size: 30px;
+}
+section img
+{
+    float: right;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+section p{
+    float: left;
+    width: 1090px;
+    text-align: justify;
+    color: #041e9f;
+}
