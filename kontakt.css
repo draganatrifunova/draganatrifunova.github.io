@@ -1,0 +1,126 @@
+body{
+    background: url("images/background body.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#container{
+    width: 1100px;
+    height: 600px;
+    margin: auto;
+    /*background: radial-gradient(rgb(4, 30, 159), rgb(96, 196, 255));*/
+    /*background: radial-gradient(rgb(136, 249, 255), rgb(255, 154, 249));*/
+    background: radial-gradient(rgb(247, 225, 255), rgb(154, 142, 194));
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 23px;
+}
+#divSredno p, #divZaAktivnostiVoOsnovno p, #faks-aktivnosti p, #divSredno ul li, #divZaAktivnostiVoOsnovno ul li{
+    color: #041e9f;;
+}
+header ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header ul li a:hover{
+    font-size: 30px;
+    text-shadow: -2px -2px 3px black;
+    cursor: pointer;
+}
+header ul li a:active{
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: -2px -2px 3px white;
+    color: rgb(136, 69, 164);
+}
+header ul li{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+#person img{
+    height: 44px;
+    width: 150px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    /*height: 200px;*/
+}
+.linija_futer
+{
+    width: 98%;
+    color: white;
+    border:5px dashed;
+}
+.aktivno_meni{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Comic Sans MS", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-shadow: -2px -2px 3px black;
+    color: #ececec;
+    font-size: 30px;
+}
+/**/
+#youtube, #instagram, #facebook, #gmail
+{
+    width: 200px;
+    height: 100px;
+    border:1px solid;
+    border-radius: 10px;
+    background: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: black;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: 5px solid white;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+section a{
+    text-decoration: none;
+    color: black;
+}
+section img{
+    height: 44px;
+    width: 50px;
+}
+#youtube img{
+    height: 44px;
+    width: 90px;
+}
+section #facebook:hover, section #youtube:hover, section #gmail:hover, section #instagram:hover{
+    width: 225px;
+    height: 125px;
+    text-shadow: -3px 3px 6px black;
+}

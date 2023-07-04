@@ -1,0 +1,164 @@
+body{
+    background: url("images/background body.jpg");
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+#container{
+    width: 1100px;
+    height: 1430px;
+    margin: auto;
+    /*background: radial-gradient(rgb(4, 30, 159), rgb(96, 196, 255));*/
+    /*background: radial-gradient(rgb(136, 249, 255), rgb(255, 154, 249));*/
+    background: radial-gradient(rgb(247, 225, 255), rgb(154, 142, 194));
+    padding-right: 30px;
+    padding-left: 30px;
+    line-height: 23px;
+}
+#divSredno p, #divZaAktivnostiVoOsnovno p, #faks-aktivnosti p, #divSredno ul li, #divZaAktivnostiVoOsnovno ul li{
+    color: white;font-weight: bold;
+
+}
+header ul {
+    margin-top: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header ul li a:hover{
+    font-size: 30px;
+    text-shadow: -2px -2px 3px black;
+    cursor: pointer;
+}
+header ul li a:active{
+    cursor: pointer;
+    font-size: 30px;
+    text-shadow: -2px -2px 3px white;
+    color: rgb(136, 69, 164);
+}
+header ul li{
+
+    font-size: 25px;
+    font-weight: bold;
+}
+header a{
+    text-decoration: none;
+    color:white;
+}
+#person img{
+    height: 44px;
+    width: 150px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+section
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    height: 1170px;
+
+}
+.linija_futer
+{
+    width: 98%;
+    color: white;
+    border:5px dashed;
+}
+.aktivno_meni{
+    text-decoration: underline;
+    font-style: italic;
+    font-family: "Comic Sans MS", sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0;
+    text-shadow: -2px -2px 3px black;
+    color: #ececec;
+    font-size: 30px;
+}
+section ul{
+    list-style-image: url("images/bull.png");
+}
+section p, section h4, section ul li
+{
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+section h4
+{
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 6px solid rgb(136, 69, 164);
+}
+/*
+#divZaAktivnostiVoOsnovno p, #divZaAktivnostiVoOsnovno ul li{
+    width: 700px;
+    float: left;
+    clear: left;
+}
+ */
+#divZaAktivnostiVoOsnovno img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-top: 55px;
+    margin-right: 50px;
+    border:5px solid rgb(136, 69, 164);
+}
+
+#divZaAktivnostiVoOsnovno, #divSredno, #faks-aktivnosti{
+    border: 6px solid rgb(136, 69, 164);
+    border-radius: 5px;
+    background: linear-gradient(#69ace3, rgba(155, 155, 238, 0.43));
+    color: white;
+    margin-top: 30px;
+}
+#divSredno img
+{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-right: 50px;
+    border:5px solid rgb(136, 69, 164);
+}
+.pocetok-section{
+    color: white;
+    width: 500px;
+}
+/*
+header{
+    position: fixed;
+    top: 0;
+    left: 200px;
+    right: 200px;
+}
+*/
+#slikaPocetokSection{
+    height: 230px;
+    width: 350px;
+    float: right;
+    border-radius: 10px;
+    border: 6px solid white;
+}
+#cartoons{
+    float: right;
+    border-radius: 10px;
+    height: 230px;
+    width: 150px;
+    border: 6px solid black;
+    margin-left: 35px;
+}
